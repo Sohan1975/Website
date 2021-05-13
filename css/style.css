@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.logo a {
+    color: white !important;
+    font-size: 22px !important;
+    margin-left: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.logo span {
+    color: tomato;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    background-color:tomato;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+section#banner {
+    background-image: url(image/pic1.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-135%, 0%);
+    position: absolute;
+}
+.banner-content h1 {
+    font-size: 36px;
+    font-weight: 100;
+    color: tomato;
+}
+
+.banner-content h2 {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.banner-content h4 {
+    font-size: 37px;
+    font-weight: bold;
+}
+span.text {
+    font-size: 35px;
+    color: red;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+!--about---
+
+.about-content {
+    padding-left: 30px;
+}
+
+.about-content h2 {
+    color: blue;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 29px;
+}
+
+.about-content p {
+    font-size: 15px;
+}
+
+.wrapper {
+    margin-top: 5px;
+}
+
+.wrapper ul {
+    list-style-type: none;
+}
+
+.wrapper ul li {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.wrapper ul li i {
+    color: tomato;
+    font-size: 26px;
+}
+
+
+.wrapper1 {
+    margin-top: 5px;
+}
+
+.wrapper1 ul {
+    list-style-type: none;
+}
+
+.wrapper1 ul li {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.wrapper1 ul li i {
+    color: tomato;
+    font-size: 26px;
+}
+.image h4 {text-align: center;font-size: 14px;background-color: rebeccapurple;color: white;padding: 8px;letter-spacing: 1px;font-weight: 100;}
+.about-nav p {
+    padding-left: 40px;
+}
+
+
+
+
+ul.port-menu {list-style: none;display: flex;justify-content: center;}
+
+ul.port-menu li {
+    padding: 10px 30px;
+    border: 1px solid #1c211e;
+    margin-bottom:30px;
+}
+ul.port-menu li:hover {
+    background-color: tomato;
+    color: white;
+    transition: 0.3s;
+}
+li.active{
+    background-color: tomato;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.single-portfolio {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.single-portfolio img {
+    width: 100%;
+}
+
+.port-ovarlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    transition: 0.5s;
+}
+
+.port-ovarlay::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.50;
+    z-index: -1;
+}
+
+
+
+.single-portfolio:hover .port-ovarlay {
+    top: 0;
+}
+
+div#portfolio {
+    background-color: #343a40;
+    padding: 40px;
+}
+
+
+.row.wrapper {
+    background-image: url(image/sohan.jpg);
+    background-position: center;
+    width: 100%;
+    color: #afa2af;
+    padding: 20px;
+    text-align: center;
+}
+.wrapper-content {
+}
+
+.wrapper-content h4 {
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+}
+
+.wrapper-content i {
+    color: red;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.wrapper-content h2 {
+    font-size: 27px;
+    color: #ffffff;
+}
+
+input.btn.btn-warning.btn-block {
+    color: white;
+    text-transform: uppercase;
+    background-color: red;
+}
+.hero i {
+    color: tomato;
+    font-size: 30px;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.hero span {
+    color: tomato;
+}
+
+div#contech {
+}
+
+div#contech {}
+
+.hero {
+    margin: 40px;
+}
+.hero-wrapper h1 {
+    font-size: 18px;
+    margin-top: 24px;
+    color: tomato;
+}
+.gal-content {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.gal-content i {
+    font-size: 25px;
+    color: tomato;
+    margin-right: 10px;
+}
+
+.gal-content h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.gal-content span {
+    color: red;
+}
+
+.gelary-image {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.gelary-image img {
+    width: 100%;
+}
+.service-content {
+    width: 250px;
+    height: 250px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+section#service {
+    background-color: black;
+    padding: 20px;
+}
+
+.service-content i {
+    font-size: 40px;
+    color: red;
+    margin: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
